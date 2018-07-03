@@ -1,5 +1,5 @@
 {
-  "name": "searchts",
+  "name": "axios",
   "version": "1.0.0",
   "description": "### Install global tool",
   "main": "index.js",
@@ -15,5 +15,13 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "typescript": "^2.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcircle-intern/search-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcircle-intern/search-ts/issues"
+  },
+  "homepage": "https://github.com/bcircle-intern/search-ts#readme"
 }
