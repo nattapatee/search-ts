@@ -16,25 +16,18 @@ class App extends React.Component<{}, State> {
             path: "",
             pattern: ""
         }
-
         this.handlepathChange = this.handlepathChange.bind(this)
         this.handlepatternChange = this.handlepatternChange.bind(this)
     }
 
-    handlepathChange (evt) {
-
-        this.setState({ path: evt.target.value })
+    handlepathChange = (e) => {
+        this.setState({ path: e.target.value })
+      } 
+      handlepatternChange = (e) => { 
+        this.setState({ pattern: e.target.value })
       }
-      
-      handlepatternChange (evt) {
-        
-        this.setState({ pattern: evt.target.value })
-      }
-    
-    
 
-
-
+    //คลิก
     onClick = (e) => {
         console.log(this.state)
         let resultElement = document.getElementById('postResult')
