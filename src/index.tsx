@@ -20,7 +20,7 @@ class App extends React.Component<{}, State> {
 
     onClick = (e) => {
         console.log(this.state)
-        var resultElement = document.getElementById('postResult');
+        let resultElement = document.getElementById('postResult');
         resultElement.innerHTML = '';
  
         axios.post('http://localhost:5002/api/search/searchFile', {
@@ -58,8 +58,7 @@ class App extends React.Component<{}, State> {
 
     render()  
     {
-        
-        
+
         var divStyle = {
         color: 'black',
         backgroundColor: '#cccccc',
